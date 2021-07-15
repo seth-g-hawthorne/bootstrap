@@ -2,7 +2,8 @@
 # Install useful utilities
 #
 pushd "${BASH_SOURCE[0]}" > /dev/null
-  sudo apt-install jq
+  ./install-jq.sh
+  ./install-httpie.sh
 
   ./install-kubebox.sh
   ./install-kubetail.sh
