@@ -3,7 +3,7 @@
 # Ref: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 #
 pushd "$(dirname $0)" > /dev/null
-  ../../docker/bin/docker-install 
+  ../../docker/bin/docker-install-ubuntu
 
   #systemd cgroup driver is prefered
   if [ ! -e /etc/docker/daemon.json ]; then
