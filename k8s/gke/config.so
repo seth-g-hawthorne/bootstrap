@@ -1,0 +1,4 @@
+GKE_ZONE=us-west1-b
+GKE_USER=''
+GKE_NODES=2
+GKE_MACHINE_TYPE="n1-standard-2"

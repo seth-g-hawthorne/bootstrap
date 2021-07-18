@@ -1,5 +1,5 @@
 # Initium: Docker
 Resources for bootstraping development with Docker
 
-## Contents
-  * [`scripts`](scripts/README.md)
+## Scripts
+  * [`bin`](bin/README.md)

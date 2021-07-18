@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source config.sh
+
+if [ -z $GKE_USER ]; then
+   echo "Enter your GKE user email: "
+   read GKE_USER
+fi
+if [ -z $GKE_USER ]; then
+   exit 1
+fi
+
+kubectl create clusterrolebinding cluster-admin-binding \
+  --clusterrole=cluster-admin \
+  --user=${GKE_USER}
+
+popd > /dev/null

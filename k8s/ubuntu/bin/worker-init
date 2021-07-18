@@ -1,0 +1,7 @@
+#!/bin/bash
+# Initialize a Kubernetes worker node 
+#
+pushd "$(dirname $0)" > /dev/null
+  ./ubuntu-init
+  echo "Copy and run the join-cluster.sh script from the master node"
+popd

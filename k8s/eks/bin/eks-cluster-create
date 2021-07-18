@@ -1,0 +1,51 @@
+#!/bin/bash
+
+pushd "$(dirname $0)" > /dev/null
+   source config.so
+
+  function usage {
+     echo "Usage $0 [ -n <nodes> | -t <type> | -r <region> ] <cluster>"
+     exit 1
+  }
+
+  if [ $# -eq 0 ]; then
+    usage
+  fi
+
+  cluster_name=''
+  while [[ $# -gt 0 ]]; do
+   case $1 in
+      -n|--nodes)
+         EKS_NODES=$1
+         ;;
+      -t|--type)
+         EKS_MACHINE_TYPE=$1
+         ;;
+      -r|--region)
+         EKS_REGION=$1
+         ;;  
+         *)
+         if [[ $1 != -*  && -z "$cluster_name" ]]; then
+            cluster_name=$1
+         else
+            usage  
+         fi
+         ;;
+      esac
+      shift
+  done
+
+
+  echo "Creating  ${EKS_NODES} node GKE ${EKS_MACHINE_TYPE} cluster ${cluster_name} at  ${EKS_REGION}"
+ 
+  eksctl create cluster \
+  --version=${EKS_VERSION} \
+  --name=${cluster_name} \
+  --nodes=${EKS_NODES} \
+  --managed --region=${EKS_REGION} \
+  --node-type ${EKS_MACHINE_TYPE} \
+  --asg-access \
+  --ssh-access \
+  --ssh-public-key ${EKS_PUBLIC_KEY}
+
+popd > /dev/null

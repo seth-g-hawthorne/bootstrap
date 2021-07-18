@@ -1,0 +1,47 @@
+#!/bin/bash
+
+pushd "$(dirname $0)" > /dev/null
+   source config.so
+
+  function usage {
+     echo "Usage $0 [ -n <nodes> | -t <type> | -z <zone> ] <cluster>"
+     exit 1
+  }
+
+  if [ $# -eq 0 ]; then
+    usage
+  fi
+
+  cluster_name=''
+  while [[ $# -gt 0 ]]; do
+   case $1 in
+      -n|--nodes)
+         GKE_NODES=$1
+         ;;
+      -t|--type)
+         GKE_MACHINE_TYPE=$1
+         ;;
+      -z|--zone)
+         GKE_ZONE=$1
+         ;;  
+         *)
+         if [[ $1 != -*  && -z "$cluster_name" ]]; then
+            cluster_name=$1
+         else
+            usage  
+         fi
+         ;;
+      esac
+      shift
+  done
+
+
+  echo "Creating  ${GKE_NODES} node GKE ${GKE_MACHINE_TYPE} cluster ${cluster_name} at  ${GKE_ZONE}"
+  gcloud container clusters create \
+  --machine-type ${GKE_MACHINE_TYPE} \
+  --num-nodes ${GKE_NODES} \
+  --zone ${GKE_ZONE}\
+  --cluster-version latest \
+  $cluster_name
+
+popd > /dev/null

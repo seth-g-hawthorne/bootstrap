@@ -1,7 +1,10 @@
 # Initium: Go
 Go related scripts and resources
 
-## Related Information
+## Scripts
+  * [`bin`](bin/README.md)
+
+## Useful Information
 
 ### Reference
   * [Go Home](https://golang.org/)
