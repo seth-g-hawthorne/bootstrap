@@ -37,7 +37,6 @@ K8S_VERSIONS['1.15']=kindest/node:v1.15.12@sha256:b920920e1eda689d9936dfcf733270
 K8S_VERSIONS['1.14']=kindest/node:v1.14.10@sha256:f8a66ef82822ab4f7569e91a5bccaf27bceee135c1457c512e54de8c6f7219f8
 k8s_version='1.21'
 k8s_image=${K8S_VERSIONS[$k8s_version]}
-echo $k8s_image
 
 function version_error() {
   echo "**** ERROR: Unexpected Kubernetes version" 
@@ -207,6 +206,7 @@ nodes:
 # Disabled RemoveSelfLink option to address nfs-client provisioner issue in kubernetes v1.20
 featureGates:
   "RemoveSelfLink": false
+  EphemeralContainers: true
 containerdConfigPatches: 
 - |-
   [plugins."io.containerd.grpc.v1.cri".registry.mirrors."localhost:${reg_port}"]

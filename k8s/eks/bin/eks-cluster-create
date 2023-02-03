@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pushd "$(dirname $0)" > /dev/null
-   source config.so
+   source config.env
 
   function usage {
      echo "Usage $0 [ -n <nodes> | -t <type> | -r <region> ] <cluster>"

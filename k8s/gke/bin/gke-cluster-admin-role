@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source config.sh
+source config.env
 
 if [ -z $GKE_USER ]; then
    echo "Enter your GKE user email: "

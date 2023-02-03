@@ -7,7 +7,7 @@ pushd "$(dirname $0)" > /dev/null
       exit 1
    fi
 
-   source config.so
+   source config.env
    eksctl delete cluster --name "$1" 
 
 popd > /dev/null

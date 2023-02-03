@@ -11,5 +11,14 @@ Subdirectories provide resources for deploying Kubernetes clusters, utilities, a
 
   
 ## Useful Information
+
+### JasonPath
+   * [JsonPath GitHub](https://github.com/json-path/JsonPath)
+   * [Smartbear JsonPath Reference](https://support.smartbear.com/readyapi/docs/testing/jsonpath-reference.html)
+   * [Heroku Jsonpath Evaluator](https://jsonpath.herokuapp.com/)
+
+### Kubectl
+  * [Kubectl Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+  * [Kubectl manual](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
 ### Feeds
    * [kubelist](https://kubelist.com/) - Weekly Kubernetes news
