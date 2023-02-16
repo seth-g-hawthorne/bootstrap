@@ -1,4 +1,4 @@
-# Initium: K8s (Kubernetes) 
+# Launchpad: K8s (Kubernetes) 
 Subdirectories provide resources for deploying Kubernetes clusters, utilities, and services.
 
    * [`eks`](eks/README.md) - Amazon Elastic Kubernetes
@@ -20,5 +20,6 @@ Subdirectories provide resources for deploying Kubernetes clusters, utilities, a
 ### Kubectl
   * [Kubectl Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
   * [Kubectl manual](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
+
 ### Feeds
    * [kubelist](https://kubelist.com/) - Weekly Kubernetes news

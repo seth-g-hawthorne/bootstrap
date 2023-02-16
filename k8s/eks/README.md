@@ -1,4 +1,4 @@
-# Initium: Amazon EKS Kubernetes
+# Launchpad: k8s/eks
 Scripts for creating and interacting with AWS hosted Kubernetes clusters
 
 ## Preconditions

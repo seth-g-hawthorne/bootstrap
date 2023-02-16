@@ -1,0 +1,5 @@
+// Simple Hello World
+
+fn main() {
+    println!("Rust says: Hello World!");
+}

@@ -1,4 +1,4 @@
-# Initium
-Recipes, scripts, and templates for bootstrapping development for a variety of technology stacks.
+# Launchpad: tools
+Recipes, scripts, and templates for creating development environments for a variety of technology stacks.
 
 

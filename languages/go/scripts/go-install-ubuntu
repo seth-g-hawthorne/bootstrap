@@ -2,14 +2,13 @@
 #  Install Go on Ubuntu
 #
 #
-GO_VERSION=${GO_VERSION:="1.16.4"}
+set -eu
+GO_VERSION=${GO_VERSION:="1.20"}
 pushd /tmp > /dev/null
-    wget https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz
+    wget https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz
     sudo tar -xvf go1.16.4.linux-amd64.tar.gz 
     sudo mv go /usr/local  
 
-    if ! grep -q "GOROOT" ~/.profile; then
-      echo "export GOROOT=/usr/local/go" >> ~/.profile
     fi
     if ! grep -q "GOPATH/bin" ~/.profile; then
       echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.profile

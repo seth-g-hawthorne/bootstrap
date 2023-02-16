@@ -1,4 +1,4 @@
-# Initium: K3d
+# Launchpad: k8s/K3d
 K3d is a wrapper script that makes it easy to run K3s clusters.
 
 ## Usage

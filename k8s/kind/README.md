@@ -1,4 +1,4 @@
-# Initium: KinD
+# Launchpad: k8s/kind
 Scripts and resources for running and working with kind (docker-based Kubernetes) clusters
 
 ## Usage

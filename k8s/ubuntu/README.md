@@ -1,4 +1,4 @@
-# Initium: Kubernetes Scripts
+# # Launchpad: k8s/ubuntu
 
 Scripts useful for manually creating Kubernetes clusters on Ubuntu (16.04, 18.04)
 

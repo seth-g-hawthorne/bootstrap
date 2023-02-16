@@ -1,4 +1,4 @@
-# Initium: Kubernetes Google Cloud
+# Launchpad: k8s/gke
 Scripts for creating and interacting with Google Cloud hosted Kubernetes clusters
 
 ## Getting Started
