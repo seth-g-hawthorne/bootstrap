@@ -93,10 +93,12 @@
 ### Python
 | Extension  |  Decription |
 | ---------- |  ---------- |
+| [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | Creating and organizing user-friendly comments | 
 | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) |  A Visual Studio Code extension with rich support for the Python language (for all actively supported versions of the language: >=3.6), including features such as IntelliSense (Pylance), linting, debugging, code navigation, code formatting, refactoring, variable explorer, test explorer, and more! |
 | [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent) | Aids in maintaining correct indentation |
 | [Pylint](https://pypi.org/project/pylint/) | Run pylint static analysis tool |
 | [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter) | Interface to python test runners |
+| [TabNine](https://www.tabnine.com/install/vscode) | Open-source AI assistant that provides code completion suggestions based on the current context and the history of your previous commands.| 
 </br>
 
 
