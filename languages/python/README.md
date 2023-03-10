@@ -73,7 +73,13 @@ ___
 
 ## Resources
   * [How to install pip on Ubuntu](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/#:~:text=To%20install%20pip%20for%20Python%203%20on%20%3Cu%3EUbuntu%3C%2Fu%3E,verify%20the%20installation%20by%20checking%20the%20pip%20version%3A)
-
+  * Setting Up Python Projects by Johannes Schmidt, 2022-10 ([gitrepo](github.com/johschmidt42/python-project-johannes))
+    * [GitHub and IDE](https://johschmidt42.medium.com/setting-up-python-projects-part-i-408603868c08)
+    * [Formatting and linting](https://johschmidt42.medium.com/setting-up-python-projects-part-ii-c4bd84b709d1)
+    * [Testing](https://johschmidt42.medium.com/setting-up-python-projects-part-iii-56aafde8ae0b)
+    * [Documentation and CI/CD](https://johschmidt42.medium.com/setting-up-python-projects-part-iv-82059eba4ca4)
+    * [Versioning and Releasing](https://johschmidt42.medium.com/setting-up-python-projects-part-v-206df3c1e3d3)
+  
 
 # Install Python Tools
   * Upgrade pip
@@ -115,6 +121,7 @@ ___
   * `python -m virtualenv` _venv_ - Create virtual environent `venv`
   * `.\venv\Scripts\activate` - Activate the virual environment
   * `.\venv\Scripts\deactivate` - Deactivate the virual environment
+  * `pip install virtualenv`
   * `virtual env -p usr/bin/python2.6` - Create a virtual environment using a specified python version
   * [How to use virtualenv with Python](https://learnpython.com/blog/how-to-use-virtualenv-python/)
   * [Python tools for managing virtual envs](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko)

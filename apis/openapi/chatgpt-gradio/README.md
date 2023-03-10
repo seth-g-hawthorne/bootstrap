@@ -1,4 +1,4 @@
-# Launchpad: apis/openapi/gradio-client
+# Launchpad: apis/openapi/chatgpt-gradio
 A gradio based interface to chatGPT, derived from: [Build your chatGPT using Python](https://medium.com/@mesudhir/build-your-chatgpt-using-python-6acc77c9168)
 
 # Pre-requisits

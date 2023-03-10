@@ -16,6 +16,11 @@ Golang scripts, examples, and resources
 
 # Installation
   * [Download and install go](https://go.dev/doc/install)
+    1. `curl -OL https://golang.org/dl/go1.20.2.linux-amd64.tar.gz`
+    1. `sudo tar -C /usr/local -xvf go1.20.2.linux-amd64.tar.gz`
+    1. `export PATH=$PATH:/usr/local/go/bin`
+
+
 
 # Conventions
   * [How to Write Go Code](https://golang.org/doc/code.html)
