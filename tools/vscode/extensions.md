@@ -30,6 +30,20 @@
 | [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) | Highlight TODO annotations| 
 </br>
 
+
+### Markdown 
+| | Extension  |  Decription |
+|-| ---------  |  ---------- |
+| | [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=joffreykern.markdown-toc) | generates a table of contents for your markdown file. |
+| | [Markdown lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | Lint for markdown  |
+</br>
+
+
+### JSON 
+| | Extension  |  Decription |
+|-| ---------  |  ---------- |
+|*| [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode) | Visualize structure of JSON file. |
+
 ### YAML  
 | Extension  |  Decription |
 | ---------  |  ---------- |
@@ -133,7 +147,7 @@
 | [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) |  This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.|
 </br>
 
-### Draw.io
+### Google Cloud
 | Extension  |  Decription |
 | ---------- |  ---------- |
 | [Cloud Code](https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode) | Integrates with Google Cloud services like Google Kubernetes Engine, Cloud Run, Cloud APIs and Secret Manager, and makes you feel like you are working with local code. |

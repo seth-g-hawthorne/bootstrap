@@ -48,6 +48,9 @@ Resources for using bash and creating bash scripts
 ## General
   * [Bash cheatsheet](https://devhints.io/bash)
 
+## Articles
+  * [Shell Programming Secrets Nobody Talks About](https://www.codeproject.com/Articles/5355689/Shell-Programming-Secrets-Nobody-Talks-About-Part) - Excellent discussion of shell constructs and their underlying implementation and history
+
 ## Tools 
   * [Online Bash Shell](https://www.jdoodle.com/test-bash-shell-script-online/)
   * [Explain shell](https://explainshell.com/) - Explaines contents of a command line

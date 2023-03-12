@@ -1,8 +1,9 @@
 # Launchpad: languages/python
 
-**Contents**
+**Topics**
   * [Installation](.\installation.md)
   * [Language](#Language)
+  * [Libraries](.\libraries.md)
   * [Python Tools](#Install-Python-Tools)
     * [pip](#pip)    
     * [pip-tools](#pip-tools)
@@ -11,6 +12,8 @@
     * [virtualenvwrapper](#virtualenvwrapper)
   * [Command Reference](#Command-Reference])
   * [Resources](#Resources)
+
+
 
 
 # Language 
