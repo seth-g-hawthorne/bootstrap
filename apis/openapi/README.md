@@ -1,8 +1,18 @@
 # Launchpad: apis/openapi
+**Contents**
 
-  * [OpenAI](https://platform.openai.com/)
-    * [API keys](https://platform.openai.com/account/api-keys)
-    * [Playground](https://platform.openai.com/playground)
+<!-- vscode-markdown-toc -->
+* [News](#News)
 
-  ## Resources
-    * [Mindmaps using ChatGPT and PlantUML](https://aruva.medium.com/mindmaps-using-chatgpt-and-plantuml-fb38c1d84a19)
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+</br>
+
+
+## <a name='News'></a>News 
+  * [2023-03 GPT-4 is here](https://openai.com/research/gpt-4)
+</br>
+

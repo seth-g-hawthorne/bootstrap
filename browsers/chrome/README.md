@@ -1,7 +1,19 @@
-# Launchpad: tools/chrome
+# Launchpad: browsers/chrome
+**Contents**
+<!-- vscode-markdown-toc -->
+* [Extensions](#Extensions)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+</br>
+
+___
 
 
-# Extensions
+## <a name='Extensions'></a>Extensions
 |   | **Name**         | **Description** |
 | - | ---------------- | --------------------- |
 |   | [ChatGPT](https://github.com/gragland/chatgpt-chrome-extension) | A Chrome extension that adds ChatGPT to every text box on the internet |
@@ -9,5 +21,5 @@
 | * | [Glasp](https://t.co/rAZddjiiJM) | Take notes on and annotate web pages | 
 | * | [Lightshot](https://t.co/M22j6jOcY6) | Take and customize screen shot | 
 |   | [Print Friendly](https://t.co/OZF7pudebo) | Remove ads from printed content |
-| * | [Scribe](https://chrome.google.com/webstore/detail/scribe-%E2%80%94-documentation-so/okfkdaglfjjjfefdcppliegebpoegaii?utm_source=twitter) | Screen recording and step-by-step tutorials |
 |   | [Selectext](https://selectext.app/) | Copy text from videos and pictures |
+| * | [Scribe](https://chrome.google.com/webstore/detail/scribe-%E2%80%94-documentation-so/okfkdaglfjjjfefdcppliegebpoegaii?utm_source=twitter) | Screen recording and step-by-step tutorials |

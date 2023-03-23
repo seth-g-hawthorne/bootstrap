@@ -33,5 +33,6 @@ curl -u "domain\user:pass" smb://<host>/<share>/<filename>
 
 # Related Information
   * [curl man page](https://curl.se/docs/manpage.html)
+  * [REQBIN curl examples](https://reqbin.com/req/c-1n4ljxb9/curl-get-request-example)
   * [Everything curl book](https://curl.se/book.html)
   * [5 uses of cuyrl that don't involve web requests](https://medium.com/geekculture/5-extra-uses-for-curl-that-dont-involve-web-requests-6780a345877f)
