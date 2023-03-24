@@ -6,10 +6,12 @@
 	* [Constructs](#Constructs)
 	* [Learning](#Learning)
 	* [Research](#Research)
+	* [Alogorithms](#Alogorithms)
 * [Distros](#Distros)
 	* [Conda](#Conda)
 	* [miniconda](#miniconda)
 * [Topics](#Topics)
+	* [Automation](#Automation)
 	* [Dev Env](#DevEnv)
 	* [CI/CD](#CICD)
 	* [Testing](#Testing)
@@ -49,6 +51,11 @@ ___
 </br></br>
 
 ___
+### <a name='Alogorithms'></a>Alogorithms
+  * [Fourier Transform, the Practical Python Implementation](https://towardsdatascience.com/fourier-transform-the-practical-python-implementation-acdd32f1b96a)
+</br></br>
+
+___
 ## <a name='Distros'></a>Distros 
 ### <a name='Conda'></a>Conda
   * [Managing environments](https://gist.github.com/nuhil/8f69478591b3abf29b782b4f315537f0)
@@ -61,6 +68,12 @@ ___
 
 ___
 ## <a name='Topics'></a>Topics
+
+### <a name='Automation'></a>Automation
+  * [5 killer Python scripts for automation — Part 1](https://medium.com/@naseer1015922/5-killer-python-scripts-for-automation-part1-e83383740154) - file transfer, system monitoring, web scraping, email, password manager
+  * [5 killer Python scripts for automation — Part 2](https://medium.com/@naseer1015922/5-killer-python-scripts-for-automation-part-2-33d7aa84cedc) - data analysis, computer vision, data encryption, testing and debugging, time series forcasting
+  
+
 ### <a name='DevEnv'></a>Dev Env
   * [Formatting and linting](https://johschmidt42.medium.com/setting-up-python-projects-part-ii-c4bd84b709d1)
   * [GitHub and IDE](https://johschmidt42.medium.com/setting-up-python-projects-part-i-408603868c08)

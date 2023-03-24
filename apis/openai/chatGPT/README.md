@@ -24,6 +24,7 @@ ___
     * [API keys](https://platform.openai.com/account/api-keys)
     * [Playground](https://platform.openai.com/playground)
   * [The ChatGPT list of lists: A collection of 3000+ prompts, examples, use-cases, tools, APIs](https://medium.com/mlearning-ai/the-chatgpt-list-of-lists-a-collection-of-1500-useful-mind-blowing-and-strange-use-cases-8b14c35eb)
+  * [Use This Prompting Trick To Improve ChatGPT’s Performance](https://medium.com/mlearning-ai/use-this-prompting-trick-to-improve-chatgpts-performance-aefd5d9ba0e3)
 </br>
 
 ## <a name='Learning'></a>Learning

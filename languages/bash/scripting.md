@@ -1,18 +1,63 @@
 # Jumpstart: linux/bash/scripting
 
 **Contents**
-  * Constructs
-    * [Arguments](#Arguments)
-    * [Arrays](#Arrays)
-    * [Functions](#Functions)
-    * [Heredoc](#Heredoc)
-    * [Loops](#Loops)
-  * [Resources](#Resources)
+<!-- vscode-markdown-toc -->
+* [Data structures](#Datastructures)
+	* [Arrays](#Arrays)
+	* [Hash table / Dictionary](#HashtableDictionary)
+* [Constructs](#Constructs)
+	* [Arguments](#Arguments)
+	* [Functions](#Functions)
+		* [Declaration](#Declaration)
+		* [Arguments](#Arguments-1)
+		* [Local variables](#Localvariables)
+		* [Recursion](#Recursion)
+		* [Export for use by other scripts](#Exportforusebyotherscripts)
+		* [Existence](#Existence)
+		* [Return value](#Returnvalue)
+	* [Heredoc](#Heredoc)
+	* [Loops](#Loops)
+* [Resources](#Resources)
+	* [General](#General)
+	* [Scripting](#Scripting)
+		* [Constructs](#Constructs-1)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 <br/>
 
-# Constructs
-## Arguments
+---
+## <a name='Datastructures'></a>Data structures
+
+
+### <a name='Arrays'></a>Arrays
+```
+   sizes=(1 2 4 8 16 32 64 128)
+   echo ${sizes[@]}
+   for s in ${sizes[@]}; do
+     echo $s
+   done
+```
+
+### <a name='HashtableDictionary'></a>Hash table / Dictionary
+```
+   declare -A myHashTable
+   myHashTable[a]='coyote'
+   myHashTable[b]='roadrunner'
+   for key in "${!myHashTable[@]}"
+     do
+       echo -n "key: $key, "
+   done
+```
+</br>
+
+---
+## <a name='Constructs'></a>Constructs
+### <a name='Arguments'></a>Arguments
   * `$#` - Number of arguments
   * `$*` - All arguments 
   * `$`_n_ - Argument _n_
@@ -30,17 +75,9 @@
   fi
 ```
 
-## Arrays
-```
-   sizes=(1 2 4 8 16 32 64 128)
-   echo ${sizes[@]}
-   for s in ${sizes[@]}; do
-     echo $s
-   done
-```
 
-## Functions
-### Declaration
+### <a name='Functions'></a>Functions
+#### <a name='Declaration'></a>Declaration
 ```
   foo () {
     echo "Function foo called"
@@ -48,7 +85,7 @@
 
   foo
 ```
-### Arguments
+#### <a name='Arguments-1'></a>Arguments
 ```
   #!/bin/bash
 
@@ -76,7 +113,7 @@
   answer "Run" "Will not run" && echo "I'm script" || echo "Doing nothing"
 ```
 
-### Local variables
+#### <a name='Localvariables'></a>Local variables
 ```
 inc () {
   lvar=1
@@ -87,7 +124,7 @@ inc () {
 inc
 ```
 
-### Recursion
+#### <a name='Recursion'></a>Recursion
 ```
   count=0
   level=4
@@ -104,7 +141,7 @@ inc
   recurse
 ```
 
-### Export for use by other scripts
+#### <a name='Exportforusebyotherscripts'></a>Export for use by other scripts
 ```
   hello () {
     echo "hello"
@@ -113,14 +150,14 @@ inc
   export -f hello
 ```
 
-### Existence
+#### <a name='Existence'></a>Existence
 ```
   exists() {
     declare -f "$@" > /dev/null && echo "$@ exists" || echo  "$@ does not exist"
   }
 ```
 
-### Return value
+#### <a name='Returnvalue'></a>Return value
 ```
   function myfunc()   {
       echo "result
@@ -129,7 +166,7 @@ inc
   echo $(myfunc)   
   ```
 
-## Heredoc
+### <a name='Heredoc'></a>Heredoc
 ```
   cat << END
   Heredoc text line 1
@@ -138,7 +175,7 @@ inc
 
 ```
 
-## Loops
+### <a name='Loops'></a>Loops
 ```
    until [ -f /tmp/examplefile.txt ]
    do
@@ -146,18 +183,20 @@ inc
    done
 ```
 
+</br>
 
+---
 
-# Resources
-## General
+## <a name='Resources'></a>Resources
+### <a name='General'></a>General
   * [Bash cheatsheet](https://devhints.io/bash)
 
-## Scripting
+### <a name='Scripting'></a>Scripting
   * [Linux Bash scripting blog series](https://faun.pub/linux-bash-scripting-part1-4bc70d4942c6)
   * [The art of the command line](https://github.com/jlevy/the-art-of-command-line)
   * [Ultimate guide to modernizing bash script code](https://medium.com/mkdir-awesome/the-ultimate-guide-to-modularizing-bash-script-code-f4a4d53000c2) - Multi-file script with colorization
 
-### Constructs
+#### <a name='Constructs-1'></a>Constructs
   * [Heardoc tutorial](https://linuxhint.com/bash-heredoc-tutorial/)
   * [Function return values](https://www.linuxjournal.com/content/return-values-bash-functions)
   * [Avoid eval in bash](https://stackoverflow.com/questions/17529220/why-should-eval-be-avoided-in-bash-and-what-should-i-use-instead/17529221#17529221)

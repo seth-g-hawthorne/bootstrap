@@ -29,7 +29,9 @@
 |   | [mypy](https://www.mypy-lang.org/)        | type check code that uses type annotations </br> python -m pip install mypy </br> python -m mypy sample_project </br> [example](https://medium.com/@antongw1p/top-3-tools-you-need-when-working-with-python-c43a0d01a281) | 
 |   | [pip-tools](https://github.com/jazzband/pip-tools) | A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them. | 
 |   | [pipx](https://pypa.github.io/pipx/) | Install end-user python applicantions in self-contained environments |
+|   | [pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | 
 | * | [pylint](https://pypi.org/project/pylint/)      | common code lint tool </br> python -m pip install pylint </br> python -m pylint sample_project |
+|   | [ptpython](https://github.com/prompt-toolkit/ptpython) | A better Python REPL |
 | * | [virtualenv](https://virtualenv.pypa.io/en/latest/)  | Create and manage self-contained python environments |
 |   | [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) | Wrapper for virtual env  |
 </br></br>
