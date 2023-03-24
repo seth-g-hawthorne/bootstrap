@@ -1,0 +1,16 @@
+import turtle
+
+donatello = turtle.Turtle('turtle')
+donatello.fd(150)
+donatello.color('gray')
+donatello.stamp()
+donatello.left(45)
+donatello.bk(75)
+donatello.stamp()
+donatello.color('black')
+donatello.setheading(180)
+donatello.stamp()
+donatello.pendown()
+donatello.fd(50)
+donatello.shape('triangle')
+turtle.done()
