@@ -32,6 +32,7 @@ ___
 ## <a name='Language'></a>Language 
 ### <a name='Reference'></a>Reference 
   * [Python3 Cheatsheet](https://www.pythoncheatsheet.org/)
+  * [The Python Language Reference](https://docs.python.org/3/reference/index.html)
 ### <a name='Constructs'></a>Constructs
   * [Python enumerate explained](https://towardsdatascience.com/python-enumerate-function-explained-7907837e171c)
 ### <a name='Learning'></a>Learning

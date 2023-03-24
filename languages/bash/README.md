@@ -50,6 +50,7 @@ Resources for using bash and creating bash scripts
 
 ## Articles
   * [Shell Programming Secrets Nobody Talks About](https://www.codeproject.com/Articles/5355689/Shell-Programming-Secrets-Nobody-Talks-About-Part) - Excellent discussion of shell constructs and their underlying implementation and history
+  * [7 Tips to Write Better Bash Scripts in 2023](https://geekjob.tech/7-tips-to-write-better-bash-scripts-in-2023-8299f5a59b87)
 
 ## Tools 
   * [Online Bash Shell](https://www.jdoodle.com/test-bash-shell-script-online/)

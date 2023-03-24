@@ -2,9 +2,12 @@
 
 **Contents**
 <!-- vscode-markdown-toc -->
+* [Command-Line Interfaces](#Command-LineInterfaces)
 * [General Purpose](#GeneralPurpose)
 * [Astronomy](#Astronomy)
+* [UI](#UI)
 * [Visualiation](#Visualiation)
+* [Web Scrapting](#WebScrapting)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -12,6 +15,14 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 </br> 
+
+## <a name='Command-LineInterfaces'></a>Command-Line Interfaces
+
+|   | **Library** | **Description** |
+|   | ----------- | --------------- |
+| * | [argparse](https://docs.python.org/3/library/argparse.html) | The argparse module makes it easy to write user-friendly command-line interfaces. |
+|   | [click](https://click.palletsprojects.com/en/8.1.x/) | Friendly argument parsing library [example](./examples/click/demo.py)|
+
 
 ## <a name='GeneralPurpose'></a>General Purpose
 
@@ -55,5 +66,6 @@
 |   | **Library** | **Description** |
 | - | ----------- | --------------- |
 |   | [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | a library for parsing HTML and XML documents (including having malformed markup, i.e. non-closed tags, so named after tag soup). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping | 
+| * | | [pyPDF2](https://pypdf2.readthedocs.io/) | Read, write, and manipulate PDF files.| 
 | * | [metadata_parser](https://pypi.org/project/metadata-parser/0.9.15/) | MetadataParser is a python module for pulling metadata out of web documents. |
 

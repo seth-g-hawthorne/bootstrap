@@ -23,4 +23,7 @@ with Diagram("Event Processing", show=False):
     store = S3("events store")
     dw = Redshift("analytics")
 
-
+    source >> workers >> queue >> handlers
+    handlers >> store
+    handlers >> dw
+    
